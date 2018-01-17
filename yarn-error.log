@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add materialize-css@next
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python36\Scripts\;C:\Python36\;C:\tools\ruby23\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Go\bin;C:\tools\ruby23\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\zinen\AppData\Local\Yarn\.bin;C:\Users\zinen\AppData\Local\Microsoft\WindowsApps;C:\Users\zinen\AppData\Roaming\npm
+
+Yarn version: 
+  0.18.1
+
+Node version: 
+  8.4.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "DreamDressNoivas",
+    "version": "1.0.0",
+    "description": "Realizando Sonhos",
+    "main": "index.js",
+    "author": "Ivo Zinenda <izinenda@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.59.173:443
+      at Object._errnoException (util.js:1041:11)
+      at _exceptionWithHostPort (util.js:1064:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1153:14)

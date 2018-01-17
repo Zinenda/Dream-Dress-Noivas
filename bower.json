@@ -1,0 +1,25 @@
+{
+  "name": "DreamDressNoivas",
+  "description": "Realizando Sonhos",
+  "main": "index.js",
+  "authors": [
+    "Ivo Zinenda <izinenda@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Veestidos",
+    "de",
+    "Noivas"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "^2.10.0"
+  }
+}

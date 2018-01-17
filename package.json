@@ -1,0 +1,11 @@
+{
+  "name": "DreamDressNoivas",
+  "version": "1.0.0",
+  "description": "Realizando Sonhos",
+  "main": "index.js",
+  "author": "Ivo Zinenda <izinenda@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "next"
+  }
+}
