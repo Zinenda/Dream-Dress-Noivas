@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import
+    "base",
+    "animate-bottom",
+    "materialize/materialize"
+;
+
+.primary-color {
+    background: $primary-color;
+}
+
+.primary-color-text {
+    color: $primary-color;
+}
+
+.primary-color-light {
+    background: $primary-color-light;
+}
+
+.primary-color-dark {
+    background: $primary-color-dark;
+}
+
+.page-footer {
+    a,
+    i,
+    .btn-flat {
+        color: #fff;
+    }
+}
+
+.page-header {
+    background: {
+        image: url(../assets/img/background.jpg);
+        position: center;
+        size: cover;
+        attachment: fixed;
+        repeat: no-repeat;
+    }
+    height: 50vh;
+}
+
+.waves-effect.waves-primary .waves-ripple {
+    background-color: rgba($color: $primary-color, $alpha: .65)
+}

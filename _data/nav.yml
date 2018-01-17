@@ -1,0 +1,23 @@
+- link: /noivas
+  title: Vestidos de Noivas
+  icon: dress
+
+- link: /noivos
+  title: Fatos de Noivos
+  icon: jacket
+
+- link: /damas
+  title: Vestidos de Damas
+  icon: dress
+
+- link: /daminhas
+  title: Vestidos de Daminhas
+  icon: dress
+
+- link: /diversos
+  title: Diversos
+  icon: folder
+
+- link: /gallery/vestidos
+  title: Galeria
+  icon: image

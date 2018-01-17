@@ -1,0 +1,53 @@
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a 
+                href="/" 
+                class="brand center tooltipped" 
+                data-position="bottom" 
+                data-delay="50" 
+                data-tooltip="{{ site.title }}">
+                {{ site.logo }}
+            </a>
+            <a href="#" data-target="sideNav" class="sidenav-trigger"><i class="fa-2x fas fa-bars"></i></a>
+    
+            <ul class="left hide-on-med-and-down">
+                <li>
+                    <a href="#" class="dropdown-trigger" data-target="downdown-produtos">
+                        Produtos
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </li>
+            </ul>
+    
+            <ul id="dropdown-produtos" class="dropdown-content">
+                {% include nav.html %}
+            </ul>
+    
+            <ul class="right">
+                <li>
+                    <div class="input-field">
+                        <input type="search" name="search" id="search">
+                        <label for="search" class="label-icon">
+                            <i class="fas fa-search"></i>
+                        </label>
+                    </div>
+                </li>
+    
+                <li>
+                    <a 
+                        href="#" 
+                        class="snipcart-checkout waves-effect waves-light tooltipped"
+                        data-position="bottom" 
+                        data-delay="50" 
+                        data-tooltip="Carrinho de Compras">
+                        <i class="fas fa-cart-plus"></i>
+                        <span class="new badge snipcart-summary">
+                            <span class="snipcart-total-items"></span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
