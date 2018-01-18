@@ -32,8 +32,7 @@ sass:
   sass_dir: assets/_sass
   style: compressed
 
-logo: /assets/img/logo.svg
-image: /assets/img/logotipo.svg
+image: /assets/img/logotipo.jpeg
 
 pagination:
   enabled: true
