@@ -1,20 +1,17 @@
 <section class="section grey lighten-4">
-    <section class="container">
-        <h5 class="center-align">CATEGORIAS</h5>
+    <section class="">
+        <h4 class="center-align">Categorias</h4>
         <section class="row">
             {% for item in site.data.nav %}
                 <div class="col s12 l3">
-                    <div class="card small hoverable">
+                    <div id="cartao" class="card hoverable">
                         <div class="card-image">
                             <a href="{{ item.link }}">
                                 <img src="{{ item.image }}" alt="{{ item.title }}">
                             </a>
-                        </div>
-
-                        <div class="card-content center">
-                            <p>
-                                <strong>{{ item.title }}</strong>
-                            </p>
+                            <div class="center-title">
+                                <h5>{{ item.title }}</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
