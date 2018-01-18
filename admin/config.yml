@@ -1,33 +1,35 @@
 backend:
   name: git-gateway
+  accept_roles:
+    - admin
+    - editor
   branch: master
 
-  media_folder: assets/img/uploads
-
+media_folder: "assets/img/uploads"
   
-  collections:
-    - label: "Produtos"
-      name: "produtos"
-      folder: "_produtos"
-      create: true
-      fields:
-        - {label: "Nome", name: "title", widget: "string"}
-        - {label: "Preço" name: "price", widget: "number"}
-        - {label: "Imagem", name: "image", widget: "image"}
-        - label: "Categoria"
-          name: "category"
-          widget: "select"
-          options: ["Vestidos", "Fatos", "Diversos"]
-        - label: "Tag"
-          name: "tag"
-          widget: "select"
-          options: ["Noivas", "Noivos", "Damas", "Damos", "Daminhas", "Diversos"]
+collections:
+  - label: "Produtos"
+    name: "produtos"
+    folder: "_produtos"
+    create: true
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - {label: "Imagem", name: "image", widget: "image"}
+      - label: "Categoria"
+        name: "category"
+        widget: "select"
+        options: ["Vestidos", "Fatos", "Diversos"]
+      - label: "Tag"
+        name: "tag"
+        widget: "select"
+        options: ["Noivas", "Noivos", "Damas", "Damos", "Daminhas", "Diversos"]
     
-    - label: "Galeria"
-      name: "gallery"
-      folder: "_gallery"
-      create: true
-      layout: "gallery"
-      widget: "list"
-      fields:
-        - {label: Image, name: image, widget: image}
+  - label: "Galeria"
+    name: "gallery"
+    folder: "_gallery"
+    create: true
+    layout: "gallery"
+    widget: "list"
+    fields:
+      - {label: Image, name: image, widget: image}
