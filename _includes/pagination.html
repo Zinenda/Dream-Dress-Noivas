@@ -1,0 +1,19 @@
+<div class="center">
+    {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+            {% if paginator.previous_page %}
+                <li class="active">
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn-floating btn-large waves-effect waves-circle waves-light">
+                        <i class="fas fa-chevrolet-left"></i>
+                    </a>
+                </li>
+            {% endif %}
+
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn-floating btn-large waves-effect waves-circle waves-light">
+                    <i class="fas fa-chevrolet-right"></i>
+                </a>
+            {% endif %}
+        </ul>
+    {% endif %}
+</div>

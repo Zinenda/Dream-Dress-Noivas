@@ -30,17 +30,6 @@
     }
 }
 
-.page-header {
-    background: {
-        image: url(../assets/img/background.jpg);
-        position: center;
-        size: cover;
-        attachment: fixed;
-        repeat: no-repeat;
-    }
-    height: 50vh;
-}
-
 .waves-effect.waves-primary .waves-ripple {
     background-color: rgba($color: $primary-color, $alpha: .65)
 }

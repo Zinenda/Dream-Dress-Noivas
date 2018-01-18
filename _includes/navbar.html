@@ -3,29 +3,29 @@
         <div class="nav-wrapper">
             <a 
                 href="/" 
-                class="brand center tooltipped" 
+                class="brand-logo center tooltipped hide-on-med-and-down" 
                 data-position="bottom" 
                 data-delay="50" 
                 data-tooltip="{{ site.title }}">
-                {{ site.logo }}
+                {{ site.title }}
             </a>
             <a href="#" data-target="sideNav" class="sidenav-trigger"><i class="fa-2x fas fa-bars"></i></a>
-    
+
             <ul class="left hide-on-med-and-down">
                 <li>
-                    <a href="#" class="dropdown-trigger" data-target="downdown-produtos">
+                    <a href="#" class="dropdown-trigger" data-target="dropdown-menu">
                         Produtos
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fa-xs fas fa-chevron-down"></i>
                     </a>
                 </li>
             </ul>
-    
-            <ul id="dropdown-produtos" class="dropdown-content">
+
+            <ul id="dropdown-menu" class="dropdown-content">
                 {% include nav.html %}
             </ul>
-    
+
             <ul class="right">
-                <li>
+                <li class="hide-on-med-and-down">
                     <div class="input-field">
                         <input type="search" name="search" id="search">
                         <label for="search" class="label-icon">

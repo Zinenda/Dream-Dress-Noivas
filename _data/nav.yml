@@ -1,23 +1,15 @@
 - link: /noivas
   title: Vestidos de Noivas
-  icon: dress
+  image: /assets/img/categories/pexels-photo-265720.jpeg
 
 - link: /noivos
   title: Fatos de Noivos
-  icon: jacket
+  image: /assets/img/categories/pexels-photo-372176.jpeg
 
 - link: /damas
   title: Vestidos de Damas
-  icon: dress
-
-- link: /daminhas
-  title: Vestidos de Daminhas
-  icon: dress
+  image: /assets/img/categories/pexels-photo-794391.jpeg
 
 - link: /diversos
   title: Diversos
-  icon: folder
-
-- link: /gallery/vestidos
-  title: Galeria
-  icon: image
+  image: /assets/img/categories/pexels-photo-264787.jpeg

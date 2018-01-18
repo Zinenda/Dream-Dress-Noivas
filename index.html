@@ -1,0 +1,28 @@
+---
+images:
+    - /assets/img/pexels-photo-789345.jpeg
+    - /assets/img/pexels-photo-794391.jpeg
+    - /assets/img/pexels-photo-265720.jpeg
+layout: default
+pagination:
+    enabled: true
+    collecction: produtos
+---
+
+<div class="slider">
+    <ul class="slides">
+        {% for item in page.images %}
+            <li>
+                <img src="{{ item }}">
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% include categories-section.html %}
+
+<section class="section">
+    {% include grid-loop.html %}
+</section>
+
+{% include pagination.html %}
