@@ -13,7 +13,7 @@ backend:
       fields:
         - {label: "Nome", name: "title", widget: "string"}
         - {label: "Preço" name: "price", widget: "number"}
-        - {label: "Imagem" name: "image", widget: "image"}
+        - {label: "Imagem", name: "image", widget: "image"}
         - label: "Categoria"
           name: "category"
           widget: "select"
