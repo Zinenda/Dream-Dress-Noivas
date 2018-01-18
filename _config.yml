@@ -34,6 +34,9 @@ sass:
 
 image: /assets/img/logotipo.jpeg
 
+collections:
+  produtos:
+
 pagination:
   enabled: true
   per_page: 15
