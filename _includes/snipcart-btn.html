@@ -1,11 +1,10 @@
 <button
     onclick="M.toast({html: '+1', classes: 'rounded'});"
     class="snipcart-add-item btn-floating btn-large halfway-fab waves-effect waves-light"
-    data-item-id="{{ item.category }}{{ forloop.index }}"
-    data-item-name="{{ item.title }}"
-    data-item-price="{{ item.price }}"
-    data-item-image="{{ item.image }}"
-    data-item-url="{{ item.url }}"
-    data-item-description="{{ item.description }}">
+    data-item-id="{{ post.category }}{{ forloop.index }}"
+    data-item-name="{{ post.title }}"
+    data-item-price="{{ post.price }}"
+    data-item-image="{{ post.image }}"
+    data-item-url="{{ post.url }}">
         <i class="fas fa-cart-plus"></i>
 </button>
