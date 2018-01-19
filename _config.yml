@@ -34,6 +34,8 @@ sass:
 
 image: /assets/img/logotipo.jpeg
 
+snipcart_api_key: OTkzMDk0NTktYmJiNy00MjBlLWI3NDQtMGVlZTg5ZmExZmVkNjM2NTE5MjM1NTA5NjMyMzM3
+
 collections:
   produtos:
 
