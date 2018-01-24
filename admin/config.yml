@@ -23,7 +23,7 @@ collections:
       - label: "Tag"
         name: "tag"
         widget: "select"
-        options: ["Noivas", "Noivos", "Damas", "Damos", "Daminhas", "Diversos"]
+        options: ["Noivas", "Noivos", "Damas", "Damos", "Daminhas", "Acessorios", "Brindes", "Convites", "Buques"]
     
   - label: "Galeria"
     name: "gallery"
