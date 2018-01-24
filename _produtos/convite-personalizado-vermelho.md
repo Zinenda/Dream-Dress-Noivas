@@ -1,7 +1,7 @@
 ---
 title: Convite personalizado vermelho
-price: '1500'
-image: /assets/img/uploads/cv12 - copy.jpg
+price: '2500'
+image: /assets/img/uploads/cv30.jpg
 category: Diversos
 tag: Convites
 ---
