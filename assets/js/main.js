@@ -3,7 +3,9 @@ $(document).ready(function(){
     $(".dropdown-trigger").dropdown({
         constrainWidth: false,
     });
-    $('.slider').slider();
+    $('.slider').slider({
+        height: 600
+    });
     // Pause slider
     $('.slider').slider('pause');
     // Start slider
