@@ -1,7 +1,7 @@
 ---
 title: Brindes
 price: '500'
-image: /assets/img/uploads/br17.jpg
+image: /assets/img/uploads/br19.jpg
 category: Diversos
 tag: Brindes
 ---
